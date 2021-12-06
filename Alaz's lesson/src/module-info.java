@@ -1,0 +1,2 @@
+module alaz_lesson {
+}
