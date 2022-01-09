@@ -117,7 +117,7 @@ public class Blackjack {
 		AI_ = hit(AI_);
 		AI_ = hit(AI_);
 		
-		System.out.println("Player's total is: "+ player_1);
+		System.out.println("AI's total is: "+ player_1);
 		AI_ = machine(AI_);
 	}	
 	public static int machine(int original)
@@ -142,7 +142,7 @@ public class Blackjack {
 		}
 		if(original > 21)
 		{
-			System.out.println("AI lost.");
+			System.out.println("You win!");
 			return original;
 		}
 		return original;
